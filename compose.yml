@@ -1,0 +1,7 @@
+version: '3'
+services:
+  front:
+    image: mafamafa/phpinfo-ubuntu:202311231637
+    container_name: front
+    ports:
+        - "80:80"
